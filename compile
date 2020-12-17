@@ -1,0 +1,2 @@
+#!/bin/bash
+wkhtmltopdf -B 0mm -T 0mm -L 0mm -R 0mm --javascript-delay 300 http://localhost:8000 resume.pdf
