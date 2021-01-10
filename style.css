@@ -1,0 +1,36 @@
+.left-side p {
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.left-side div.col {
+  margin:0;
+}
+
+.left-side div.row {
+  margin-bottom: 0;
+}
+
+.left-side p {
+  margin-bottom: 1px;
+}
+
+.right-side :not(.skills) > .col > h6 {
+  margin: 0;
+}
+
+.right-side.col {
+  padding:0;
+}
+
+.right-side h4 {
+  margin-top: 0;
+}
+
+.right-side div.row {
+  margin-bottom: 5px;
+}
+
+.right-side center h6 {
+  margin-bottom: 0;
+}

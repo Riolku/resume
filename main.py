@@ -8,7 +8,7 @@ def index():
 
 @app.route("/<path:r>")
 def route(r):
-    return open(r, "rb").read()
+    return flask.Response(open(r, "rb").read(), mimetype="text/%s" % r.split(".")[-1])
 
 if __name__ == "__main__":
     app.run(port = 8000, debug = True)

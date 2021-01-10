@@ -1,5 +1,6 @@
 {
 	"commands": [
-		"index.html : ./compile"
+		"index.html : ./compile",
+		"style.css : ./compile"
   ]
 }
