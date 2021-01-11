@@ -3,6 +3,32 @@
   margin-bottom:0;
 }
 
+.left-side {
+  font-size: 16px;
+}
+
+.left-side h5:not(.top) {
+  margin: 1.8rem 0 0.7rem 0;
+}
+
+.left-side h5.top {
+  margin: 0.7rem 0 0.7rem 0;
+}
+
+.right-side > .contact-div {
+  font-size: 19px;
+}
+
+ul.browser-default {
+  padding-left: 20px;
+
+  margin: 0;
+}
+
+.right-side ul.browser-default li {
+  font-size: 20px;
+}
+
 .left-side div.col {
   margin:0;
 }
@@ -28,7 +54,7 @@
 }
 
 .right-side div.row {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .right-side center h6 {
