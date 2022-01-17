@@ -20,6 +20,10 @@ ul.browser-default {
   margin: 0;
 }
 
+.entry {
+  margin-bottom: 16px;
+}
+
 .right-side ul.browser-default li {
   font-size: 19px;
 }
