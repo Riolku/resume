@@ -1,4 +1,3 @@
 #!/bin/bash
 wkhtmltopdf -B 0mm -T 0mm -L 0mm -R 0mm --javascript-delay 500 http://localhost:8000 temp.pdf
 pdftk temp.pdf cat 1 output resume.pdf
-rm temp.pdf
