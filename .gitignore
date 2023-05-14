@@ -1,2 +1,6 @@
-.venv
-temp.pdf
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.synctex.gz
+*.xdv

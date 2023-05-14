@@ -1,0 +1,33 @@
+\documentclass[border=0mm]{standalone}
+
+\PassOptionsToPackage{dvipsnames}{xcolor}
+\usepackage{tikz}
+\usetikzlibrary{positioning}
+
+\usepackage{fontawesome5}
+
+\usepackage[T1]{fontenc}
+\usepackage[default]{cantarell}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\begin{tikzpicture}
+  \useasboundingbox (0,0) rectangle (210mm,297mm);
+  \fill[Cerulean] (140mm,297mm) rectangle (210mm,0mm);
+
+  \node (top) at (2mm, 297mm) {};
+  
+  \newcommand{\entry}[4][0mm]{
+    \node[below=#1 of #3.south west, anchor=north west, align=left, text width=138mm] (#2) {#4}
+  }
+
+  \entry{profile}{top}
+    {\Large \color{Cerulean} \faIcon[solid]{user} Career Profile};
+  \entry{profile_text}{profile}
+    {\small Experienced developer interested in security, development, and innovation.};
+  \entry[2mm]{work_experience_header}{profile_text}
+    {\Large \color{Cerulean} \faIcon[solid]{briefcase} Work Experience};
+
+\end{tikzpicture}
+\end{document}
